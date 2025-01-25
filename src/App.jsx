@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
+import Hero from './sections/Hero/Hero';
 
 const App = () => {
   return (
-    <div>
-      Hello
-    </div>
+    <>
+      <Hero/>
+    </>
   )
 }
 
