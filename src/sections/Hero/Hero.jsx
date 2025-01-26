@@ -29,8 +29,8 @@ function Hero() {
         </div>
         <ul className={styles.navLinks}>
           <li><a href="#Hero">Home</a></li>
-          <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div className={styles.themeToggle}>
@@ -65,9 +65,9 @@ function Hero() {
               <img src={twitterIcon} alt="twitter icon" />
             </a>
           </span>
-          <p className='description'>
+          {/* <p className='description'>
             Proficient in Java and Web application development using Spring boot and React.
-          </p>
+          </p> */}
           <a href={cv} download>
             <button className='hover'>
               Resume
