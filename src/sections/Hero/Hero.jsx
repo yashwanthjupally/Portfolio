@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/hero-img.png';
+import heroImg from '../../assets/Yash.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -29,8 +29,8 @@ function Hero() {
         </div>
         <ul className={styles.navLinks}>
           <li><a href="#Hero">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">About</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div className={styles.themeToggle}>
@@ -65,9 +65,6 @@ function Hero() {
               <img src={twitterIcon} alt="twitter icon" />
             </a>
           </span>
-          {/* <p className='description'>
-            Proficient in Java and Web application development using Spring boot and React.
-          </p> */}
           <a href={cv} download>
             <button className='hover'>
               Resume

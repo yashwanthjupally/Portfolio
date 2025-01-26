@@ -10,8 +10,8 @@ const App = () => {
   return (
     <>
       <Hero/>
-      <Projects/>
       <Skills />
+      <Projects/>
       <Contact />
       <Footer />
     </>

@@ -1,14 +1,18 @@
 .navbar {
     position: fixed;
-    top: 0;
-    width: 100%; 
+    top: 1vh;
+    width: 80%; 
     z-index: 100;
     display: flex;
     justify-content: space-between;
+    align-self: center;
     align-items: center;
-    background-color: var(--background-color); 
+    background-color: rgba(80, 200, 120, 1);
     padding: 10px 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px 60px;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: 0 2px 10px rgba(191, 69, 69, 0.1);
 }
 
 .navLogo h1 {
@@ -27,17 +31,42 @@
 .navLinks li a {
     text-decoration: none;
     color: var(--text-color);
+    color: rgb(199, 8, 8);
     font-size: 1rem;
     transition: color 0.2s ease-in-out;
 }
   
 .navLinks li a:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .themeToggle{
-    padding: 0 5rem;
+  padding: 0 5px;
 }
+
+.themeToggle img{
+  width: 80%; 
+  height: auto; 
+}
+
+@media (width >= 1400px) {
+  .navbar{
+    margin: 40px 40px 60px 40px;
+  }
+  .navLogo h1 {
+    font-size: 2.5rem;
+  }
+  .navLinks li a {
+    font-size: 1.5rem;
+  }
+  .themeToggle img{
+    width: 100%; 
+    height: auto; 
+  }
+
+}
+
+
 
 .container {
     display: flex;
@@ -47,9 +76,13 @@
     text-align: center;
     height: 100dvh;
     min-height: 500px;
-  
+   
     .hero {
       max-width: 200px;
+    }
+
+    .colorModeContainer img {
+      border-radius: 100%;
     }
   
     span {
@@ -126,5 +159,17 @@
         max-width: 350px;
         width: 350px;
       }
+  }
+
+  @media (width >= 1400px) {
+
+    .container{
+      margin-top: 40px;
+      margin-bottom: 0px;
     }
+
+    
+
+  }
+
 }

@@ -4,7 +4,7 @@
     --btn-text-color: #fff;
     --text-color: #222;
     --primary-color: #0987f2;
-    --secondary-color: #6c63ff;
+    --secondary-color: #6b63ff43;
     --project-card-bg: #ffffff00;
     --form-text-color: #555;
     --footer-text-color: #888;
@@ -14,8 +14,8 @@
     --background-color: #222;
     --btn-color: #0987f2;
     --btn-text-color: #222;
-    --text-color: #a714e5;
-    --primary-color: #a714e5;
+    --text-color: #e1e815;
+    --primary-color: #efef0f;
     --secondary-color: #ff9c00;
     --project-card-bg: #ffffff00;
     --form-text-color: #ccc;
@@ -33,7 +33,7 @@ body {
 #root {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
 }
 
 h1, h2, p {
@@ -81,7 +81,7 @@ button {
 
 @media (width >= 800px) {
     #root {
-      gap: 100px;
+      gap: 60px;
     }
     h1 {
       font-size: 40px;
@@ -102,7 +102,7 @@ button {
 
 @media (width >= 1400px) {
     #root {
-      gap: 200px;
+      gap: 100px;
     }
     h1 {
       font-size: 48px;

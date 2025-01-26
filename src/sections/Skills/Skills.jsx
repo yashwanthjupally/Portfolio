@@ -11,7 +11,9 @@ import styles from './skillsStyle.module.css';
 function Skills() {
   return (
     <section id='skills' className={styles.container}>
-      <h1 className={styles.sectionTitle}>Skills</h1>
+
+      <h1 className={styles.sectionTitle}>About</h1>
+      <p className={styles.about}>I am Yashwanth, a graduate in Electrical Engineering and a passionate web application developer. I am proficient in building Java, Spring Boot and React-based applications. I love connecting with people and exploring new things. My hobbies include music, photography, and miniature craft. Below is my primary tech stack</p>
       <div className={styles.skillssection}>
         <a href='https://github.com/yashwanthjupally/Employee-Management-System' target='_blank'>
           <img className={styles.skillImg} src={java} alt='Java logo'/>
