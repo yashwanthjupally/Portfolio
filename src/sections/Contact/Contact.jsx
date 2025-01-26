@@ -29,8 +29,8 @@ function Contact() {
         <div className="formGroup">
           <label htmlFor="message" hidden>Message</label>
           <textarea 
-            name='email'
-            id='email'
+            name="message"
+            id="message"
             placeholder='Message'
             required
           ></textarea>
