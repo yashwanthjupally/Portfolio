@@ -1,0 +1,70 @@
+/* Container for the whole section */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+  
+  /* Section Title */
+  .sectionTitle {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Skill Icons Section */
+  .skillssection {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for small screens */
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  /* Individual Skill Icon Styling */
+  .skillImg {
+    max-width: 100px;
+    height: auto;
+    transition: transform 200ms ease-in-out;
+    border-radius: 8px; /* Rounded corners for the images */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  }
+  
+  /* Hover Effect on Skill Icons */
+  .skillImg:hover {
+    transform: scale(1.2); /* Slight scale increase on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* For medium screens <= 1400px */
+  @media (max-width: 1400px) {
+    .skillssection {
+      gap: 30px; /* Reduce gap slightly on medium screens */
+    }
+    
+    .skillImg {
+      max-width: 80px; /* Adjust icon size */
+    }
+  }
+  
+  /* For small screens <= 800px */
+  @media (max-width: 800px) {
+    .skillssection {
+      gap: 20px 0px; /* Reduce gap on smaller screens */
+    }
+  
+    /* Make each item take up 45% of the width for 2 items per row */
+    .skillssection a {
+      width: 45%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
