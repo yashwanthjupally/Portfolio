@@ -14,7 +14,7 @@
     --background-color: #222;
     --btn-color: #0987f2;
     --btn-text-color: #222;
-    --text-color: #e1e815;
+    --text-color: #fffffe;
     --primary-color: #efef0f;
     --secondary-color: #ff9c00;
     --project-card-bg: #ffffff00;
@@ -62,8 +62,9 @@ h3 {
 }
 
 p {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
+    font-family: serif;
+    font-size: 20px;
+    line-height: 30pt;
     font-weight: 300;
 }
 
