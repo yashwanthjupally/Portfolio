@@ -6,6 +6,7 @@ import employee from '../../assets/Employee.png'
 import motivation from '../../assets/motivation.png'
 import retail from '../../assets/retail.png'
 import Projectcard from '../../common/Projectcard'
+import docSumUp from '../../assets/docSumup.png'
 
 
 function Projects() {
@@ -19,6 +20,13 @@ function Projects() {
 					link='https://github.com/yashwanthjupally/Retail-Management'
 					h3='Retail Management' 
 					p=' A robust backend for a Retail Management system'
+				/>
+
+				<Projectcard 
+					src={docSumUp} 
+					link='https://papaya-pothos-60a00b.netlify.app/'
+					h3='DocSumup' 
+					p='A Sample Data-driven website showcasing data and insights'
 				/>
 
 				<Projectcard 
