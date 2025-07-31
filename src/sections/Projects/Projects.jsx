@@ -39,7 +39,7 @@ function Projects() {
 					src={dine} 
 					link='https://github.com/yashwanthjupally/dev-din-in'
 					h3='Dev-Din-In' 
-					p='A frontend application'
+					p='A React app showcasing restaurant menu items for easy browsing.'
 				/>
 				<Projectcard 
 					src={employee} 
